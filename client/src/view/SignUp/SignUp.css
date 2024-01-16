@@ -1,0 +1,30 @@
+.signup-div{
+    text-align: center;
+
+}
+.signup-input-div{
+    background-color:chartreuse;
+    display: inline-block;
+    padding: 50px 80px;
+    height:fit-content;
+    border: 1px solid grey;
+    box-shadow: 1px 2px 4px 2px rgb(83, 80, 80);
+}
+.design-signup-from{
+    font-size: 20px;
+     border:none;
+     border-radius: 7px;
+     margin: 15px;
+     padding:10px;
+     box-shadow: 1px 2px 5px 2px rgb(105, 104, 104);
+}
+.signup-btn{
+    background-color: black;
+color: white;
+font-size: 20px;
+width: 70%;
+border-radius: 7px;
+padding: 5px;
+margin: 10px;
+cursor: pointer; 
+}
