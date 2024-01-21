@@ -1,30 +1,41 @@
-.signup-div{
+.signup-div {
     text-align: center;
-
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToAvV2IZ0KPJ4KuLr70nSCLZEVF6MCL567fQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   height: 100vh;
 }
-.signup-input-div{
-    background-color:chartreuse;
+
+.signup-input-div {
+    background-color: #e1e1d0;
     display: inline-block;
-    padding: 50px 80px;
-    height:fit-content;
+    padding: 30px 80px;
+    margin: 25px;
+    border-radius: 10px;
+    height: fit-content;
     border: 1px solid grey;
     box-shadow: 1px 2px 4px 2px rgb(83, 80, 80);
 }
-.design-signup-from{
+
+.design-signup-from {
     font-size: 20px;
-     border:none;
-     border-radius: 7px;
-     margin: 15px;
-     padding:10px;
-     box-shadow: 1px 2px 5px 2px rgb(105, 104, 104);
+    border: none;
+    border-radius: 7px;
+    margin: 15px;
+    padding: 5px;
+    box-shadow: 1px 2px 5px 2px rgb(105, 104, 104);
 }
-.signup-btn{
-    background-color: black;
-color: white;
-font-size: 20px;
-width: 70%;
-border-radius: 7px;
-padding: 5px;
-margin: 10px;
-cursor: pointer; 
+
+.signup-btn {
+    background-color: #e68b03;
+    color: white;
+    font-size: 20px;
+    width: 70%;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+.signup-btn:hover{
+background-color: black;
 }

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './SignUp.css';
 import axios from 'axios';
 import { Link } from 'react-router-dom'
+import Navbar from '../../components/Navbar/Navbar.js'
 
 function SignUP() {
     const [name, setName] = useState("");
@@ -44,8 +45,10 @@ function SignUP() {
     return (
         <div className='signup-div'>
             <form>
-                <h1>SignUp</h1>
+                <Navbar />
+                
                 <div className='signup-input-div'>
+                <h1>SignUp</h1>
                     <div>
                         <input type='text'
                             placeholder='Enter Name'

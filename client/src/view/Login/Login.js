@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Login.css'
 import axios from 'axios';
 import { Link } from 'react-router-dom'
+import Navbar from '../../components/Navbar/Navbar.js'
 
 function Login() {
     const [email, setEmail] = useState();
@@ -35,6 +36,7 @@ function Login() {
     return (
         <div className='login-div'>
             <form>
+                <Navbar />
                 <h1>Login Here 👇🏼</h1>
 
                 <div className='login-input-div'>

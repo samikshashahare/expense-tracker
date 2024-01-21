@@ -1,11 +1,18 @@
 .addTransaction-div {
     text-align: center;
+    background-image: url('https://st2.depositphotos.com/1000163/6911/i/450/depositphotos_69115045-stock-photo-overhead-of-office-table-with.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
 }
 
 .input-div {
-    background-color: rgb(241, 172, 112);
+   
+    background-color: #e1e1d0;
     display: inline-block;
-    padding: 50px 80px;
+    padding: 40px 60px;
+    border-radius: 10px;
+    margin-top: 30px;
     height:fit-content;
     border: 1px solid grey;
     box-shadow: 1px 2px 4px 2px rgb(83, 80, 80);
@@ -29,8 +36,9 @@
 cursor: pointer;
 }
 .add-btn{
-background-color: black;
+background-color:  #e68b03;
 color: white;
+border: none;
 font-size: 20px;
 width: 70%;
 border-radius: 7px;
@@ -38,16 +46,7 @@ padding: 5px;
 margin: 10px;
 cursor: pointer;     
 } 
-
-/* .input-amount {
-    font-size: 25px;
+.add-btn:hover{
+    background-color: black;
 }
 
-.transactionType-input {}
-
-
-.description-input {
-    font-size: 25px;
-    margin: 20px;
-}
-*/

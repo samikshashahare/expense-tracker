@@ -1,0 +1,20 @@
+.homepage-div{
+    background-image:url('https://img.freepik.com/premium-photo/notebook-pen-dark-modern-office-desk-with-top-view-shot_35674-13091.jpg');
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 99.1vw;
+    align-items: center;
+    margin: -35px;
+    margin-left: -0.1px;
+    padding: 0;
+    background-size: cover;
+}
+.text-paragraph{
+    color: rgb(208, 204, 204);
+    font-size: 35px;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-weight:5px;
+    width: 40%;
+    text-align: center;
+    padding: 10%;
+}

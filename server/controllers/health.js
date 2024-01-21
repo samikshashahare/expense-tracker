@@ -4,6 +4,7 @@ const getApiHealth = async (req, res) => {
 
    return responder({
     res, 
+    
     success:true, 
     message:'server is running'
 })

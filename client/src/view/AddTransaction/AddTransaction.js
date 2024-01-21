@@ -2,6 +2,7 @@
 import './AddTransaction.css';
 import React, { useState } from 'react';
 import axios from 'axios';
+import Navbar from '../../components/Navbar/Navbar.js'
 
 
 function AddTransaction() {
@@ -37,9 +38,11 @@ function AddTransaction() {
 
     }
     return (
+        <>
+       
+        
         <div className='addTransaction-div'>
-            <h1>AddTransaction</h1>
-
+        <Navbar />
             <div className='input-div'>
 
                 <div>
@@ -123,6 +126,7 @@ function AddTransaction() {
             </div>
 
         </div>
+        </>
     )
 }
 

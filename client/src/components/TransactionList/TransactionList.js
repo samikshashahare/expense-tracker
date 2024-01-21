@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./TransactionList.css";
 import axios from 'axios';
+import Navbar from '../Navbar/Navbar.js'
 
 
 function App() {
@@ -47,12 +48,13 @@ function App() {
 
   return (
     <div className='transaction-contaier'>
-      <h1>
-        All Expences
-      </h1>
+      
+    <Navbar />
 
+      <div className='transaction-type'>
       <h2>Credit:{creditSum}</h2>
       <h2>Debit:{debitSum}</h2>
+      </div>
       {
         transactions?.map((transaction, index) => {
           const { _id, amount, type, category, description, createdAt, updatedAt } = transaction;

@@ -1,0 +1,45 @@
+.body{
+    margin: 0;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #e68b03;
+    font-size: 23px;
+    font-family:cursive;
+}
+.app-name{
+    font-weight: bold;
+    font-size: larger;
+
+}
+.links-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;   
+}
+.text-decoration{
+    text-decoration: none;
+}
+.text-color{
+    color:rgb(102, 101, 101);
+}
+.margin{
+    margin: 10px;
+}
+.hover-effect{
+    cursor: pointer;
+}
+.hover-effect:hover{
+    
+    text-shadow: -1px -1px  rgb(225, 208, 208);
+    
+}
+
+.user-name:hover{
+    cursor: pointer;
+   text-shadow: -1px -1px  rgb(225, 208, 208);
+}
+

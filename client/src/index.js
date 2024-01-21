@@ -3,7 +3,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import './index.css';
 // import App from './App';
 import Home from './view/Home/Home.js'
-import AddTransaction from './view/AddTransactions/AddTransaction.js';
+import AddTransaction from './view/AddTransaction/AddTransaction.js';
 import TransactionList from './components/TransactionList/TransactionList.js'
 import SignUp from './view/SignUp/SignUp.js';
 import  Login from './view/Login/Login.js';
