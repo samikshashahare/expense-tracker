@@ -8,6 +8,7 @@
 
 .signup-input-div {
     background-color: #e1e1d0;
+    opacity: 0.6;
     display: inline-block;
     padding: 30px 80px;
     margin: 25px;
